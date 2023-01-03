@@ -1,1 +1,2 @@
 # Gestionale-Retr-
+REFACTORING OF GESTIONALE RETRò
