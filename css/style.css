@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0px;
+    background-color:rgb(246, 245, 245);
+}
+.title {
+    text-align: center;
+}
+nav {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(6, 172, 255);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.form {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-container {
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input ,select {
+    background-color: rgb(249, 249, 247);
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 5px;
+}
+.show-list {
+    margin: 50px;
+    border-radius: 10px;
+    padding: 25px 20px 50px 20px;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+}
+
+.show-list > table {
+    width: 100%;
+    text-align: center;
+}
+
+.search {
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.submitsearch {
+    background-color: rgb(6, 172, 255);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    color: #FFF;
+}
+.search > input {
+    width: 80%;
+    margin: 10px;
+}
+.text-alert {
+    text-align: center;
+    color: red;
+}
+.rewrite {
+    background-color: #FFF;
+    width: 150px;
+}
+.submit {
+    background-color: rgb(6, 172, 255);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    width: 100px;
+    color: #FFF;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.submit:hover{
+    background-color: #FFF;
+    border: 1px solid rgb(6, 172, 255);
+    color: rgb(6, 172, 255);
+}
+.button {
+    border: none;
+    background-color:rgb(246, 245, 245);
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.flex {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+}
