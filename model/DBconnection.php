@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class DB {
 
@@ -52,5 +52,4 @@ class DB {
     {
         echo "Test";
     }
-   
 }

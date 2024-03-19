@@ -14,13 +14,5 @@ document.getElementById('newClerk').addEventListener('click',(e)=>{
         let message = "<h2>Inserire un codice fiscale corretto e/o compila tutti i capi</h2>";
         document.getElementById('message').innerHTML = message;
     }
-    
 })
 */
-
-
-
-
-
-
-
